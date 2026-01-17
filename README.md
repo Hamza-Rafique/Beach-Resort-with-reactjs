@@ -1,68 +1,141 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🏖️ Beach Resort (ReactJS)
 
-## Available Scripts
+A **Beach Resort** web application built with **ReactJS (Class-Based Components)** showcasing luxurious resort rooms with a simple e-commerce–style browsing experience. This project was originally developed **~6 years ago**, following React best practices of that time.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* 🏨 **Luxurious Rooms Listing**
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  * Display different room types (single, double, family, luxury)
+  * Room details with images, pricing, and amenities
 
-### `npm test`
+* 🛒 **E-commerce-style Experience**
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  * Browse rooms
+  * Filter by room type, price, capacity, and extras
+  * Dynamic room rendering
 
-### `npm run build`
+* ⚛️ **React Class-Based Components**
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  * Built before React Hooks era
+  * Uses `Component`, `state`, and `props`
+  * Demonstrates traditional React architecture
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* 📱 **Responsive UI**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  * Works across desktop and mobile screens
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🛠️ Tech Stack
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* **ReactJS** (Class Components)
+* **JavaScript (ES6)**
+* **HTML5 / CSS3**
+* **Context API** (early usage for state management)
+* **React Router** (for navigation)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+> ⚠️ Note: This project does **not** use React Hooks, Redux, or modern build optimizations as it was created before those became standard.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## 📂 Project Structure (Simplified)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+beach-resort/
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── Room.js
+│   │   ├── RoomsList.js
+│   │   └── RoomsFilter.js
+│   │
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── Rooms.js
+│   │   └── SingleRoom.js
+│   │
+│   ├── context.js
+│   ├── data.js
+│   ├── App.js
+│   └── index.js
+│
+└── package.json
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🚀 Getting Started
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### Prerequisites
 
-### Analyzing the Bundle Size
+* **Node.js** (recommended: v14 or v16)
+* **npm** or **yarn**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Installation
 
-### Making a Progressive Web App
+```bash
+git clone <repository-url>
+cd beach-resort
+npm install
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### Run the App
 
-### Advanced Configuration
+```bash
+npm start
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+The app will run on:
 
-### Deployment
+```
+http://localhost:3000
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+---
 
-### `npm run build` fails to minify
+## 🧠 Learning Purpose
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project is ideal for:
+
+* Understanding **legacy React codebases**
+* Learning **class-based component patterns**
+* Maintaining or refactoring older React applications
+* Migrating class components to **modern React Hooks**
+
+---
+
+## 🔄 Possible Improvements (Modernization Ideas)
+
+* Convert class components to **functional components with Hooks**
+* Replace Context API with **Redux / Zustand**
+* Upgrade to latest React & Webpack
+* Improve accessibility (ARIA)
+* Add real payment integration
+
+---
+
+## 📸 Screenshots
+
+*Add screenshots here (Home page, Rooms list, Room details)*
+
+---
+
+## 📜 License
+
+This project is for **educational and portfolio purposes**.
+
+---
+
+## 🙌 Acknowledgements
+
+Inspired by early React tutorials and projects focused on hotel and resort booking systems.
+
+---
+
+### ⭐ If you’re reviewing this project today
+
+Please consider it in the context of **React standards from ~6 years ago**, where class-based components were the norm.
